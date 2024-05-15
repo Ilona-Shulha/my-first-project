@@ -12,6 +12,7 @@
   - [ICONS](#icons)
   - [PROJECT ENV](#project-env)
   - [BRANCHES](#branches)
+  - [Additional Documentation](#additional-documentation)
 ## Project history
 
 > Onliner 2.0 is a B2B system that enables the collaboration between Kraft Company and its clients.
@@ -95,15 +96,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Architecture
 
-* **VIEWS** - directory for save pages. Example: Log, Home, UserList
-* **UTILS** - utilitarian methods. Example: "api.js"
-* **ROUTER** - create dynamic and static routes. Example: "/directory/catalog", 
+* **views** - directory for save pages. Example: Log, Home, UserList
+* **utils** - utilitarian methods. Example: "api.js"
+* **router** - create dynamic and static routes. Example: "/directory/catalog", 
 * **i18n** - contains from the i18n configuration file and the default localization file, 
 * **vuetify** - contains from the vuetify configuration file, 
-* **CONST** - Save constants. Example: "OBJECT_STATUSES"
-* **COMPONENTS** - Components allow us to split the UI into independent and reusable pieces, and think about each piece in isolation. Example: TablePagination
-* **ASSETS** - directory for save images and icons
-* **API** - configuration axios. Axios is a promise-based HTTP Client for node.js and the browser
+* **const** - Save constants. Example: "OBJECT_STATUSES"
+* **components** - Components allow us to split the UI into independent and reusable pieces, and think about each piece in isolation. Example: TablePagination
+* **assets** - directory for save images and icons
+* **api** - configuration axios. Axios is a promise-based HTTP Client for node.js and the browser
 
 ## ICONS
 Application has default icons of vuetify: https://fonts.google.com/icons?selected=Material+Icons:home
@@ -139,5 +140,7 @@ App has three branches(according to the environment):
 To perform the release, you need to merge the stage into the main branch.
 You can work both with dev and with stage in terms of development. You also need a branch from dev/stage
 
+## Additional documentation
 
+[Backend documentation](https://gitlab.varteq.com/lirugo/kraft_2_backend)
 
