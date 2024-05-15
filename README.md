@@ -27,6 +27,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Modules
 
+## Plugins
+* [Vuelidate](https://www.npmjs.com/package/vuelidate) - lightweight model-based validation
+
+
 
 ## Using libraries
 
