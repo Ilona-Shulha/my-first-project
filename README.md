@@ -4,14 +4,17 @@
 - [Onliner 2.0 Application](#onliner-20-application)
   - [Project history](#project-history)
   - [Project setup](#project-setup)
+    - [Compiles and hot-reloads for development](#Compiles-and-hot-reloads-for-development)
+    - [Compiles and minifies for production](#Compiles-and-minifies-for-production)
+    - [Customize configuration](#Customize-configuration)
   - [Technologies](#technologies)
     - [Application Frameworks](#application-frameworks)
     - [Using libraries](#using-libraries)
   - [Code Style](#code-style)
   - [Architecture](#architecture)
-  - [ICONS](#icons)
-  - [PROJECT ENV](#project-env)
-  - [BRANCHES](#branches)
+  - [Icons](#icons)
+  - [Project ENV](#project-env)
+  - [Branches](#branches)
   - [Additional Documentation](#additional-documentation)
 ## Project history
 
@@ -106,11 +109,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * **assets** - directory for save images and icons
 * **api** - configuration axios. Axios is a promise-based HTTP Client for node.js and the browser
 
-## ICONS
+## Icons
 Application has default icons of vuetify: https://fonts.google.com/icons?selected=Material+Icons:home
 and custom icons: https://fonts.google.com/icons?selected=Material+Icons:home 
 
-## PROJECT ENV
+## Project ENV
 App has three environments
 
  - **development** - an environment for implementing new features, debugging, and initially testing them 
@@ -131,7 +134,7 @@ App has three environments
 
   Link prod is https://onliner2.kraftds.com/#/
 
-## BRANCHES
+## Branches
 App has three branches(according to the environment): 
  - development
  - stage
