@@ -24,34 +24,33 @@ npm install
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
-## Modules
-
-## Plugins
-* [Vuelidate](https://www.npmjs.com/package/vuelidate) - lightweight model-based validation
-
-
-
 ## Using libraries
 
-The base libraries
+* [Vue](https://v2.vuejs.org/v2/guide/installation.html) - framework for building user interfaces
 
-* Vuelidate: https://www.npmjs.com/package/vuelidate
-* Vue Toastification: https://www.npmjs.com/package/vue-toastification
-* Axios https://github.com/axios/axios
-* Vue https://v2.vuejs.org/v2/guide/installation.html
-* Vuex https://vuex.vuejs.org/installation.html
-* Vuetify https://vuetifyjs.com/en/getting-started/installation/
-* Vuelidate https://www.npmjs.com/package/vuelidate
-* VueRouter https://v3.router.vuejs.org/ru/installation.html
-* VueDebounce https://www.npmjs.com/package/vue-debounce
-* Vue-search-select https://github.com/moreta/vue-search-select
-* Vue-moment https://www.npmjs.com/package/vue-moment
-* Slider https://www.npmjs.com/package/swiper-vue2
-* Vue-i18n https://www.npmjs.com/package/vue-i18n
-* Vue moment https://www.npmjs.com/package/vue-moment
-* vue-pincode-input https://www.npmjs.com/package/vue-pincode-input
-* vue-search-select https://www.npmjs.com/package/vue-search-select
+* [Vuex](https://vuex.vuejs.org/installation.html) - a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.
+
+* [VueRouter](https://v3.router.vuejs.org/ru/installation.html) - configurable and convenient routing 
+
+* [Axios](https://github.com/axios/axios) - isomorphic promise-based HTTP Client
+
+* [Vue-i18n](https://www.npmjs.com/package/vue-i18n) - component-oriented internationalization plugin
+
+* [Vuelidate](https://www.npmjs.com/package/vuelidate) - lightweight model-based validation
+
+* [Vue Toastification](https://www.npmjs.com/package/vue-toastification) - allows adding notifications (toasts) in a convenient and appealing way
+
+* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/) - 
+
+* [VueDebounce](https://www.npmjs.com/package/vue-debounce) - dynamic debouncing for input based requests
+
+* [Vue-moment](https://www.npmjs.com/package/vue-moment) - parse, validate, manipulate, and display dates and times
+
+* [Slider](https://www.npmjs.com/package/swiper-vue2)
+
+
+
+
 
 ## Code Style
 
@@ -86,15 +85,32 @@ Application has default icons of vuetify: https://fonts.google.com/icons?selecte
 and custom icons: https://fonts.google.com/icons?selected=Material+Icons:home 
 
 ## PROJECT ENV
-App has three environments. There are development, prod, stage.
-To run the stage locally, you need to execute the command  "stage": "react-env --prefix UI_ENV --path './.env.stage' -- vue-cli-service serve",
-To run the main (prod) locally, you need to execute the command "prod": "react-env --prefix UI_ENV --path './.env.prod' -- vue-cli-service serve"
-To run the dev locally, you need to execute the command "dev": "react-env --prefix UI_ENV --path './.env.development' -- vue-cli-service serve"
+App has three environments
+
+ - **development** - an environment for implementing new features, debugging, and initially testing them 
+
+ To run the dev locally, you need to execute the command "dev": "react-env --prefix UI_ENV --path './.env.development' -- vue-cli-service serve"
+
+ Link dev is http://88.198.193.193/
+
+ - **stage** - as close as possible to the production environment, it allows to test or demonstrate the performance of a product version before deploying it to the production environment
+
+ To run the stage locally, you need to execute the command  "stage": "react-env --prefix UI_ENV --path './.env.stage' -- vue-cli-service serve"
+
 Link stage is https://onliner2-staging.kraftds.com/#/
-Link dev is http://88.198.193.193/
+
+ - **prod** - is a real-world working environment in which the latest versions of the product, after all testing has been completed and all bugs have been resolved, are delivered to the intended end users, to ensure that they are using the latest and most stable version of the product.
+
+To run the main (prod) locally, you need to execute the command "prod": "react-env --prefix UI_ENV --path './.env.prod' -- vue-cli-service serve"
+
+Link prod is https://onliner2.kraftds.com/#/
 
 ## BRANCHES
-App has three branches: development, stage, main.
+App has three branches(according to the environment): 
+ - development
+ - stage
+ - main (for prod)
+
 To perform the release, you need to merge the stage into the main branch.
 You can work both with dev and with stage in terms of development. You also need a branch from dev/stage
 
