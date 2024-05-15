@@ -15,6 +15,7 @@
   - [Icons](#icons)
   - [Project ENV](#project-env)
   - [Branches](#branches)
+  - [Design](#design)
   - [Additional Documentation](#additional-documentation)
 ## Project history
 
@@ -75,11 +76,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 * [Vue-moment](https://www.npmjs.com/package/vue-moment) - parse, validate, manipulate, and display dates and times
 
+* [Google maps](https://developers.google.com/maps/documentation) - the Google Maps JavaScript API use script tag  to include into the application. It dynamically loads the API asynchronously for better performance. Implemented multi-colored markers to display different categories of objects. It is also possible to search for an address by a marker on the map. What can be reused in any component of the application
+
+* [Overlapping Marker Spiderfier](https://www.npmjs.com/package/overlapping-marker-spiderfier) - makes map markers in the Google Maps API behave in that Google Earth way (minus the animation). Small numbers of markers (yes, up to 8) spiderfy into a circle. Larger numbers fan out into a more space-efficient spiral
+
 * [Slider](https://www.npmjs.com/package/swiper-vue2)
-
-
-
-
 
 ## Code Style
 
@@ -142,6 +143,9 @@ App has three branches(according to the environment):
 
 To perform the release, you need to merge the stage into the main branch.
 You can work both with dev and with stage in terms of development. You also need a branch from dev/stage
+
+## Design
+[This design](https://www.figma.com/design/i4wPyHzEsFeUPOhda2tQs7/Kraft---O2-(File---Share)?node-id=103-5313&t=j2pltbbztMGaZM3r-0) is the basis for implementing pages and components
 
 ## Additional documentation
 
