@@ -2,8 +2,16 @@
 
 ## Table of Contents
 - [Onliner 2.0 Application](#onliner-20-application)
- - [Project history](#project-history)
- - [Project setup](#project-setup)
+  - [Project history](#project-history)
+  - [Project setup](#project-setup)
+  - [Technologies](#technologies)
+    - [Application Frameworks](#application-frameworks)
+    - [Using libraries](#using-libraries)
+  - [Code Style](#code-style)
+  - [Architecture](#architecture)
+  - [ICONS](#icons)
+  - [PROJECT ENV](#project-env)
+  - [BRANCHES](#branches)
 ## Project history
 
 Kraft product about trade in materials and their calculation
@@ -28,9 +36,15 @@ npm install
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Using libraries
+## Technologies
+
+### Application Frameworks
 
 * [Vue](https://v2.vuejs.org/v2/guide/installation.html) - framework for building user interfaces
+
+* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/) - Vue Component Framework. A no design skills required open source UI library with beautifully handcrafted collection of pre-made components which enable developers to create small modules to be used and re-used throughout an application
+
+### Using libraries
 
 * [Vuex](https://vuex.vuejs.org/installation.html) - a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.
 
@@ -45,8 +59,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [reCAPTCHA](https://developers.google.com/recaptcha/docs/v3) - uses an advanced risk analysis engine and adaptive challenges to keep malicious software from engaging in abusive activities on the website, fake users will be blocked. reCAPTCHA v3 returns a score for each request without user friction. The score is based on interactions with the site
 
 * [Vue Toastification](https://www.npmjs.com/package/vue-toastification) - allows adding notifications (toasts) in a convenient and appealing way
-
-* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/) - a no design skills required open source UI library with beautifully handcrafted collection of pre-made components which enable developers to create small modules to be used and re-used throughout an application
 
 * [VueDebounce](https://www.npmjs.com/package/vue-debounce) - dynamic debouncing for input based requests
 
