@@ -1,5 +1,9 @@
-# Kraft
+# Onliner 2.0 Application
 
+## Table of Contents
+- [Onliner 2.0 Application](#onliner-20-application)
+ - [Project history](#project-history)
+ - [Project setup](#project-setup)
 ## Project history
 
 Kraft product about trade in materials and their calculation
@@ -38,9 +42,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 * [Vuelidate](https://www.npmjs.com/package/vuelidate) - lightweight model-based validation
 
+* [reCAPTCHA](https://developers.google.com/recaptcha/docs/v3) - uses an advanced risk analysis engine and adaptive challenges to keep malicious software from engaging in abusive activities on the website, fake users will be blocked. reCAPTCHA v3 returns a score for each request without user friction. The score is based on interactions with the site
+
 * [Vue Toastification](https://www.npmjs.com/package/vue-toastification) - allows adding notifications (toasts) in a convenient and appealing way
 
-* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/) - 
+* [Vuetify](https://vuetifyjs.com/en/getting-started/installation/) - a no design skills required open source UI library with beautifully handcrafted collection of pre-made components which enable developers to create small modules to be used and re-used throughout an application
 
 * [VueDebounce](https://www.npmjs.com/package/vue-debounce) - dynamic debouncing for input based requests
 
@@ -89,21 +95,21 @@ App has three environments
 
  - **development** - an environment for implementing new features, debugging, and initially testing them 
 
- To run the dev locally, you need to execute the command "dev": "react-env --prefix UI_ENV --path './.env.development' -- vue-cli-service serve"
+  To run the dev locally, you need to execute the command "dev": "react-env --prefix UI_ENV --path './.env.development' -- vue-cli-service serve"
 
- Link dev is http://88.198.193.193/
+  Link dev is http://88.198.193.193/
 
  - **stage** - as close as possible to the production environment, it allows to test or demonstrate the performance of a product version before deploying it to the production environment
 
- To run the stage locally, you need to execute the command  "stage": "react-env --prefix UI_ENV --path './.env.stage' -- vue-cli-service serve"
+  To run the stage locally, you need to execute the command  "stage": "react-env --prefix UI_ENV --path './.env.stage' -- vue-cli-service serve"
 
-Link stage is https://onliner2-staging.kraftds.com/#/
+  Link stage is https://onliner2-staging.kraftds.com/#/
 
  - **prod** - is a real-world working environment in which the latest versions of the product, after all testing has been completed and all bugs have been resolved, are delivered to the intended end users, to ensure that they are using the latest and most stable version of the product.
 
-To run the main (prod) locally, you need to execute the command "prod": "react-env --prefix UI_ENV --path './.env.prod' -- vue-cli-service serve"
+  To run the main (prod) locally, you need to execute the command "prod": "react-env --prefix UI_ENV --path './.env.prod' -- vue-cli-service serve"
 
-Link prod is https://onliner2.kraftds.com/#/
+  Link prod is https://onliner2.kraftds.com/#/
 
 ## BRANCHES
 App has three branches(according to the environment): 
