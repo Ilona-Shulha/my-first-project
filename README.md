@@ -14,7 +14,14 @@
   - [BRANCHES](#branches)
 ## Project history
 
-Kraft product about trade in materials and their calculation
+> Onliner 2.0 is a B2B system that enables the collaboration between Kraft Company and its clients.
+> Users can register, create and manage companies, handle objects, browse products, and make orders.
+> The system includes a multifunctional flexible configurator tool for creating smart product catalogs for its clients 
+> and distributors.  Which further allows customers to select available products or their types using an already 
+> configured calculator.  Based on this choice, the calculator will calculate and select a list of necessary basic and
+> additional goods in the right quantity for certain client needs. Based on miscalculations it supports order creation, 
+> and allows users to define preferred shipment methods. Streamlining these processes, the platform enhances the
+> efficiency of business interactions for both Kraft Company and its clients.
 
 ## Project setup
 ```
@@ -72,31 +79,31 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Code Style
 
-1) Component creates by type: <calculator-formatted-item >
-![img.png](img.png)
-2) Store (Vue.js)
+1) Store (Vue.js)
     * name of mutations must start with "set". setUserById
     * name of actions must start with "load" loadAllEventTypes
     * name of getters must start with "get" Example: getProductListCatalog: state => state.productListCatalog
     * store should contain modules 
 
-3) Constants, statuses should be cold by capitalized letters 
-4) View must be in view directory
-5) Components must be in components directory
-6) Adapters must contain  functions generation API
-7) API contains  functions generation API
-8) Const contains static values
-9) Assets contains images and icons
+2) Constants, statuses should be cold by capitalized letters 
+3) View must be in view directory
+4) Components must be in components directory
+5) Adapters must contain  functions generation API
+6) API contains  functions generation API
+7) Const contains static values
+8) Assets contains images and icons
 
 ## Architecture
 
-* VIEWS - directory for save pages. Example: Log, Home, UserList
-* UTILS - utilitarian methods. Example: "api.js"
-* ROUTE - create dynamic and static routes. Example: "/directory/catalog", 
-* CONST - Save constants. Example: "OBJECT_STATUSES"
-* COMPONENTS - Components allow us to split the UI into independent and reusable pieces, and think about each piece in isolation. Example: TablePagination
-* ASSETS - directory for save images and icons
-* API - configuration axios. Axios is a promise-based HTTP Client for node.js and the browser
+* **VIEWS** - directory for save pages. Example: Log, Home, UserList
+* **UTILS** - utilitarian methods. Example: "api.js"
+* **ROUTER** - create dynamic and static routes. Example: "/directory/catalog", 
+* **i18n** - contains from the i18n configuration file and the default localization file, 
+* **vuetify** - contains from the vuetify configuration file, 
+* **CONST** - Save constants. Example: "OBJECT_STATUSES"
+* **COMPONENTS** - Components allow us to split the UI into independent and reusable pieces, and think about each piece in isolation. Example: TablePagination
+* **ASSETS** - directory for save images and icons
+* **API** - configuration axios. Axios is a promise-based HTTP Client for node.js and the browser
 
 ## ICONS
 Application has default icons of vuetify: https://fonts.google.com/icons?selected=Material+Icons:home
